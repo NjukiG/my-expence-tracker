@@ -12,7 +12,7 @@ function TranscationList() {
       <ul id="list" className="list">
         {transactions.map((transaction) => {
           return (
-            <Transaction transaction={transaction}/>
+            <Transaction key={transaction.id} transaction={transaction}/>
           )
         })}
       </ul>
