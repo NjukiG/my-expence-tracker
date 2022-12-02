@@ -6,12 +6,12 @@ function Balance() {
 
   const amounts = transactions.map((transaction) => transaction.amount)
 
-  const totalAmount = amounts.reduce((amount, index) => (amount += index), 0).toFixed(2)
-  console.log(totalAmount)
+  const totalBalance = amounts.reduce((amount, index) => (amount += index), 0).toFixed(2)
+  console.log(totalBalance)
   return (
     <div>
       <h4>Your Balance</h4>
-      <h1 id="balance">$0.00</h1>
+      <h1 id="balance">${totalBalance}</h1>
     </div>
   );
 }
