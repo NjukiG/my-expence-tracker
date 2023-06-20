@@ -31,7 +31,7 @@ function AddTransaction() {
             type="text"
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="Enter text..."
+            placeholder="Enter your transaction..."
           />
         </div>
         <div className="form-control">
@@ -43,7 +43,7 @@ function AddTransaction() {
             type="number"
             value={amount}
             onChange={(e) => setAmount(e.target.value)}
-            placeholder="Enter amount..."
+            placeholder="Enter transaction amount..."
           />
         </div>
         <button className="btn">Add transaction</button>

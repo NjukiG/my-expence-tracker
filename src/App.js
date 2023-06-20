@@ -5,8 +5,8 @@ import IncomeExpence from "./components/IncomeExpence";
 import TranscationList from "./components/TranscationList";
 import AddTransaction from "./components/AddTransaction";
 import { GlobalProvider } from "./context/GlobalState";
-import "./App.css"
-
+import "bootswatch/dist/superhero/bootstrap.min.css"; // Added this :boom:
+import "./App.css";
 
 function App() {
   return (

@@ -20,7 +20,7 @@ function IncomeExpence() {
           </p>
         </div>
         <div>
-          <h4>Expense</h4>
+          <h4>Expenses</h4>
           <p id="money-minus" className="money minus">
             -${expences}
           </p>
