@@ -9,7 +9,7 @@ function Transaction({transaction}) {
   return (
     <div>
       <li className={amount < 0 ? "minus" : "plus"}>
-        {text} <span>{sign} ${Math.abs(amount)}</span>
+        {text} <span>{sign} KES.{Math.abs(amount)}</span>
         <button className="delete-btn" onClick={() => deleteTransaction(id)}>x</button>
       </li>
     </div>

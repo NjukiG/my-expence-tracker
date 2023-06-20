@@ -10,8 +10,8 @@ function Balance() {
   console.log(totalBalance)
   return (
     <div>
-      <h4>Your Balance</h4>
-      <h1 id="balance">${totalBalance}</h1>
+      <h4>Current Balance</h4>
+      <h1 id="balance">KES: {totalBalance}</h1>
     </div>
   );
 }
