@@ -46,7 +46,7 @@ function AddTransaction() {
             placeholder="Enter transaction amount..."
           />
         </div>
-        <button className="btn">Add transaction</button>
+        <button className="btn btn-outline-success">Add transaction</button>
       </form>
     </div>
   );

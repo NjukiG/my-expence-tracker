@@ -1,11 +1,11 @@
-import React, { useContext, useEffect, useState } from "react";
+import React from "react";
 import Header from "./components/Header";
 import Balance from "./components/Balance";
 import IncomeExpence from "./components/IncomeExpence";
 import TranscationList from "./components/TranscationList";
 import AddTransaction from "./components/AddTransaction";
-import { GlobalContext, GlobalProvider } from "./context/GlobalState";
-import "bootswatch/dist/superhero/bootstrap.min.css"; // Added this :boom:
+import { GlobalProvider } from "./context/GlobalState";
+import "bootswatch/dist/vapor/bootstrap.min.css"; // Added this :boom:
 import "./App.css";
 
 function App() {
